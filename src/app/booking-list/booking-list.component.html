@@ -1,0 +1,49 @@
+<div class="container my-5">
+  <div class="text-center" style="margin: 30px">
+    <h3>Sistema de Reservas</h3>
+  </div>
+  <div class="table-responsive">
+    <table class="container table table-striped table-hover align-middle">
+      <thead class="table-dark">
+        <tr>
+          <th scope="col">Id Reserva</th>
+          <th scope="col">Nombre del Cliente</th>
+          <th scope="col">Fecha y Hora</th>
+          <th scope="col">Número de Personas</th>
+          <th scope="col">Teléfono</th>
+          <th scope="col">Email</th>
+          <th scope="col">Activo</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let booking of bookings">
+          <th scope="row">{{ booking.idBooking }}</th>
+          <td>{{ booking.nameClient }}</td>
+          <td>{{ booking.dateTime | date : "medium" }}</td>
+
+          <td>{{ booking.numberOfPeople }}</td>
+          <td>{{ booking.phoneNumber }}</td>
+          <td>{{ booking.email }}</td>
+          <td>{{ booking.active ? "Sí" : "No" }}</td>
+          <td class="text-center">
+            <div>
+              <button
+                (click)="editBooking(booking.idBooking)"
+                class="btn btn-warning btn-sm me-3"
+              >
+                Editar
+              </button>
+              <button
+                (click)="deactivateBooking(booking.idBooking)"
+                class="btn btn-danger btn-sm"
+              >
+                Eliminar
+              </button>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

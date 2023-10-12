@@ -1,0 +1,63 @@
+<div class="container my-5">
+  <div class="container text-center">
+    <h3>Editar Reserva</h3>
+  </div>
+
+  <form (ngSubmit)="onSubmit()">
+    <div class="mb-3">
+      <label for="nameClient" class="form-label">Nombre del Cliente</label>
+      <input
+        type="text"
+        class="form-control"
+        id="nameClient"
+        name="nameClient"
+        required="true"
+        [(ngModel)]="booking.nameClient"
+      />
+    </div>
+    <div class="mb-3">
+      <label for="dateTime" class="form-label">Fecha y Hora</label>
+      <input
+        type="datetime-local"
+        class="form-control"
+        id="dateTime"
+        name="dateTime"
+        [(ngModel)]="booking.dateTime"
+      />
+    </div>
+    <div class="mb-3">
+      <label for="numberOfPeople" class="form-label">Número de Personas</label>
+      <input
+        type="number"
+        class="form-control"
+        id="numberOfPeople"
+        name="numberOfPeople"
+        [(ngModel)]="booking.numberOfPeople"
+      />
+    </div>
+    <div class="mb-3">
+      <label for="phoneNumber" class="form-label">Teléfono</label>
+      <input
+        type="tel"
+        class="form-control"
+        id="phoneNumber"
+        name="phoneNumber"
+        [(ngModel)]="booking.phoneNumber"
+      />
+    </div>
+    <div class="mb-3">
+      <label for="email" class="form-label">Email</label>
+      <input
+        type="email"
+        class="form-control"
+        id="email"
+        name="email"
+        [(ngModel)]="booking.email"
+      />
+    </div>
+    <div class="text-center">
+      <button type="submit" class="btn btn-warning btn-sm me-3">Guardar</button>
+      <a [routerLink]="['/']" class="btn btn-danger btn-sm">Regresar</a>
+    </div>
+  </form>
+</div>
