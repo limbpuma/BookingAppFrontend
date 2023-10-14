@@ -7,7 +7,7 @@ import { Booking } from './booking';
   providedIn: 'root'
 })
 export class BookingService {
-  private urlBase = 'http://localhost:8081/restaurant-app/booking'; // Asegúrate de cambiar esta URL a la correcta para tu API
+  private urlBase = 'https://bookingapp-46f62c89759f.herokuapp.com'; // Asegúrate de cambiar esta URL a la correcta para tu API
 
   constructor(private clienteHttp: HttpClient) { }
 

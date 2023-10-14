@@ -1,0 +1,105 @@
+{
+  "nav": {
+    "brand": "Reservierungs-App",
+    "home": "Start",
+    "bookingList": "Reservierungsliste",
+    "bookingAdd": "Reservierung hinzufügen",
+    "language": "Sprache",
+    "english": "Englisch",
+    "spanish": "Spanisch"
+  },
+  "header": {
+    "carousel": {
+      "slide1": {
+        "title": "Leidenschaft für Entwicklung",
+        "description": "Vom ersten Tag an tauchte ich mit Begeisterung und Entschlossenheit in die Welt des Codes ein. Jede geschriebene Zeile spiegelt mein Engagement für Exzellenz wider."
+      },
+      "slide2": {
+        "title": "Kontinuierliches Lernen",
+        "description": "Auf dieser Entwicklungsreise habe ich gelernt, dass Technologie ständig weiterentwickelt wird. Meine unersättliche Neugier treibt mich an, immer auf dem neuesten Stand zu sein und mich an neue Trends anzupassen."
+      },
+      "slide3": {
+        "title": "Bereit für die nächste Herausforderung",
+        "description": "Mit diesem Projekt zeige ich nicht nur meine aktuellen Fähigkeiten, sondern auch meinen unerschütterlichen Wunsch, zu wachsen und neue Herausforderungen in der Entwicklungsbranche zu meistern."
+      },
+      "prev": "Vorherige",
+      "next": "Nächste"
+    }
+  },
+  "projectHeader": "Technische Aspekte meines Projekts",
+  "dynamicResponsive": {
+    "title": "Dynamische und responsive Schnittstelle",
+    "description": "Ich habe Angular verwendet, um ein reaktives Frontend zu erstellen, ergänzt durch Bootstrap, um ein adaptives Design zu gewährleisten. Diese Kombination bietet ein flüssiges und ästhetisch ansprechendes Benutzererlebnis auf allen Geräten."
+  },
+  "uniqueBookings": {
+    "title": "Einzigartige Reservierungen gewährleisten",
+    "description": "Das Backend, entwickelt mit Java Spring Boot, verfügt über eine Telefonnummernvalidierung, um doppelte Buchungen zu verhindern. Diese Integration stellt sicher, dass jede Buchung effizient und ohne Konflikte verarbeitet wird."
+  },
+  "dataHandling": {
+    "title": "Robuste Datenverarbeitung",
+    "description": "Ich habe mich für MySQL zur Datenbankverwaltung entschieden, wegen seiner Zuverlässigkeit und Effizienz. Jede Buchung wird sicher gespeichert und Abfragen werden schnell ausgeführt, um ein optimales Benutzererlebnis zu gewährleisten."
+  },
+  "secureAccess": {
+    "title": "Kontinuierlicher und sicherer Zugriff",
+    "description": "Mein Projekt ist auf Heroku gehostet, einer Cloud-Plattform, die einen einfachen und schnellen Einsatz ermöglicht und einen kontinuierlichen und sicheren Zugriff gewährleistet. Die Flexibilität und Effizienz von Heroku erleichtern die Skalierbarkeit und Wartung des Projekts."
+  },
+  "footer": {
+    "terms": "Allgemeine Geschäftsbedingungen",
+    "privacy": "Datenschutzrichtlinie"
+  },
+  "addBooking": {
+    "title": "Neue Reservierung hinzufügen",
+            "info": "Dieser Bereich verwendet Angular, um eine interaktive Schnittstelle zum Hinzufügen neuer Buchungen bereitzustellen. Füllen Sie einfach die erforderlichen Felder aus und klicken Sie auf 'Buchung speichern'. Dank der Integration mit Spring Boot im Backend werden die Daten effizient in unserer MySQL-Datenbank gespeichert."
+,
+    "labels": {
+      "clientName": "Kundenname",
+      "dateTime": "Datum und Uhrzeit",
+      "numberOfPeople": "Anzahl der Personen",
+      "phoneNumber": "Telefon",
+      "email": "E-Mail"
+    },
+    "buttons": {
+      "saveBooking": "Reservierung speichern",
+      "cancel": "Abbrechen"
+    }
+  },
+  "bookingList": {
+    "title": "Reservierungssystem",
+            "info": "Diese Seite zeigt eine Liste aller getätigten Buchungen. Mit Angular im Frontend wird eine interaktive Tabelle präsentiert, mit der Sie Buchungen anzeigen, bearbeiten oder löschen können. Jede Aktion kommuniziert mit unserem Spring Boot-Backend und stellt sicher, dass die Daten in MySQL immer aktuell sind. Zum Bearbeiten oder Löschen verwenden Sie einfach die entsprechenden Schaltflächen in jeder Zeile."
+,
+    "tableHeaders": {
+      "id": "Reservierungs-ID",
+      "clientName": "Kundenname",
+      "dateTime": "Datum und Uhrzeit",
+      "numberOfPeople": "Anzahl der Personen",
+      "phoneNumber": "Telefon",
+      "email": "E-Mail",
+      "active": "Aktiv",
+      "actions": "Aktionen"
+    },
+    "buttons": {
+      "edit": "Bearbeiten",
+      "delete": "Löschen"
+    }
+  },
+  "bookingEdit": {
+    "title": "Reservierung bearbeiten",
+            "info": "Hier können Sie die Details einer bestehenden Buchung bearbeiten. Die Seite wurde mit Angular erstellt, was eine Echtzeit-Aktualisierung der Informationen erleichtert. Nachdem Sie Änderungen vorgenommen haben, klicken Sie auf 'Speichern', und unsere App, unterstützt von Spring Boot, wird die Details in der MySQL-Datenbank aktualisieren."
+,
+    "labels": {
+      "clientName": "Kundenname",
+      "dateTime": "Datum und Uhrzeit",
+      "numberOfPeople": "Anzahl der Personen",
+      "phoneNumber": "Telefon",
+      "email": "E-Mail"
+    },
+    "buttons": {
+      "save": "Speichern",
+      "back": "Zurück"
+    }
+  },
+  "accordionHeader": "Gedanken zur Projektentwicklung",
+  "accordionDescription1": "Bevor ich mit dem Codieren begann, nahm ich mir Zeit, UML-Diagramme und grundlegende Arbeitsabläufe zu skizzieren. Diese anfängliche Planung war entscheidend, um die Struktur und Richtung meines Projekts zu visualisieren, Herausforderungen zu antizipieren und in jeder Phase informierte Entscheidungen zu treffen.",
+  "accordionDescription2": "Die Backend-Entwicklung brachte ihre eigenen Herausforderungen mit sich, insbesondere bei der Erstellung der API zur Verbindung mit dem Frontend. Obwohl Bootstrap im Frontend ein wesentliches Werkzeug war, das den Prozess beschleunigte und ein flüssiges Benutzererlebnis sicherstellte, wurde jedes Hindernis zu einer Lernmöglichkeit.",
+  "accordionDescription3": "Nach viel Anstrengung gelang es mir, die Mehrsprachigkeitsfunktion zu implementieren. Ich stieß jedoch auf Herausforderungen beim Sprachwechsel, wie z.B. das Klicken auf (a href #), das die Seite neu lud, anstatt die ausgewählte Sprache anzuzeigen. Diese Erfahrung unterstrich die Feinheiten der Entwicklung und die Bedeutung von Beharrlichkeit und Anpassungsfähigkeit in der Softwarewelt."
+}

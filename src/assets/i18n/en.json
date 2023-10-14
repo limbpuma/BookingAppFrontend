@@ -1,0 +1,102 @@
+{
+  "nav": {
+    "brand": "Booking App",
+    "home": "Home",
+    "bookingList": "Booking List",
+    "bookingAdd": "Add Booking",
+    "language": "Language",
+    "english": "English",
+    "spanish": "Spanish"
+  },
+  "header": {
+    "carousel": {
+      "slide1": {
+        "title": "Passion for Development",
+        "description": "From day one, I dove into the world of coding with enthusiasm and determination. Every line of code reflects my commitment to excellence."
+      },
+      "slide2": {
+        "title": "Continuous Learning",
+        "description": "On this development journey, I've learned that technology is ever-evolving. My insatiable curiosity drives me to stay updated and adapt to new trends."
+      },
+      "slide3": {
+        "title": "Ready for the Next Challenge",
+        "description": "With this project, I not only showcase my current skills but also my unwavering desire to grow and face new challenges in the world of development."
+      },
+      "prev": "Previous",
+      "next": "Next"
+    }
+  },
+  "projectHeader": "Technical Aspects of My Project",
+  "dynamicResponsive": {
+    "title": "Dynamic & Responsive Interface",
+    "description": "I used Angular to create a reactive frontend, complemented with Bootstrap to ensure an adaptive design. This combination offers a smooth and aesthetically pleasing user experience across all devices."
+  },
+  "uniqueBookings": {
+    "title": "Ensuring Unique Bookings",
+    "description": "The backend, built with Java Spring Boot, has phone number validation to prevent duplicate bookings. This integration ensures that each booking is processed efficiently and without conflicts."
+  },
+  "dataHandling": {
+    "title": "Robust Data Handling",
+    "description": "I chose MySQL for database management due to its reliability and efficiency. Each booking is stored securely, and queries are executed swiftly for an optimal user experience."
+  },
+  "secureAccess": {
+    "title": "Continuous & Secure Access",
+    "description": "My project is hosted on Heroku, a cloud platform that allows for easy and quick deployment, ensuring continuous and secure access. The flexibility and efficiency of Heroku make scaling and maintaining the project straightforward."
+  },
+  "footer": {
+    "terms": "Terms & Conditions",
+    "privacy": "Privacy Policy"
+  },
+  "addBooking": {
+    "title": "Add New Booking",
+            "info": "This section uses Angular to provide an interactive interface allowing you to add new bookings. Simply fill out the required fields and click 'Save Booking'. Thanks to the integration with Spring Boot in the backend, the data is efficiently stored in our MySQL database.",
+    "labels": {
+      "clientName": "Client Name",
+      "dateTime": "Date & Time",
+      "numberOfPeople": "Number of People",
+      "phoneNumber": "Phone",
+      "email": "Email"
+    },
+    "buttons": {
+      "saveBooking": "Save Booking",
+      "cancel": "Cancel"
+    }
+  },
+  "bookingList": {
+    "title": "Booking System",
+            "info": "This page displays a list of all made bookings. Using Angular on the frontend, an interactive table is presented allowing you to view, edit, or delete bookings. Each action communicates with our Spring Boot backend, ensuring the MySQL data is always up-to-date. To edit or logical delete, simply use the corresponding buttons on each row.",
+    "tableHeaders": {
+      "id": "Booking Id",
+      "clientName": "Client Name",
+      "dateTime": "Date & Time",
+      "numberOfPeople": "Number of People",
+      "phoneNumber": "Phone",
+      "email": "Email",
+      "active": "Active",
+      "actions": "Actions"
+    },
+    "buttons": {
+      "edit": "Edit",
+      "delete": "Delete"
+    }
+  },
+  "bookingEdit": {
+    "title": "Edit Booking",
+            "info": "Here you can edit the details of an existing booking. The page is built with Angular, facilitating real-time information updating. Once you've made changes, click 'Save', and our app, backed by Spring Boot, will update the details in the MySQL database.",
+    "labels": {
+      "clientName": "Client Name",
+      "dateTime": "Date & Time",
+      "numberOfPeople": "Number of People",
+      "phoneNumber": "Phone",
+      "email": "Email"
+    },
+    "buttons": {
+      "save": "Save",
+      "back": "Back"
+    }
+  },
+  "accordionHeader": "Reflections on the Project Development",
+  "accordionDescription1": "Before diving into coding, I spent time sketching UML maps and basic workflows. This initial planning was essential to visualize the structure and direction of my project, allowing me to anticipate challenges and make informed decisions at every stage.",
+  "accordionDescription2": "Backend development presented its own challenges, especially when creating the API to connect with the frontend. While Bootstrap was an essential tool on the frontend, speeding up the process and ensuring a smooth user experience, every hurdle faced became a learning opportunity.",
+  "accordionDescription3": "After much effort, I managed to implement multilanguage functionality. However, I faced challenges with the language switch, such as the click on (a href #) that reloaded the page instead of displaying the selected language. This experience underscored the subtleties of development and the importance of persistence and adaptability in the software world."
+}

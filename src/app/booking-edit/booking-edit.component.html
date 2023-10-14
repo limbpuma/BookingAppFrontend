@@ -1,11 +1,15 @@
 <div class="container my-5">
   <div class="container text-center">
-    <h3>Editar Reserva</h3>
+    <h3 translate="bookingEdit.title"></h3>
   </div>
-
+  <div class="alert alert-info" translate="booking-Edit.info"></div>
   <form (ngSubmit)="onSubmit()">
     <div class="mb-3">
-      <label for="nameClient" class="form-label">Nombre del Cliente</label>
+      <label
+        for="nameClient"
+        class="form-label"
+        translate="bookingEdit.labels.clientName"
+      ></label>
       <input
         type="text"
         class="form-control"
@@ -16,7 +20,11 @@
       />
     </div>
     <div class="mb-3">
-      <label for="dateTime" class="form-label">Fecha y Hora</label>
+      <label
+        for="dateTime"
+        class="form-label"
+        translate="bookingEdit.labels.dateTime"
+      ></label>
       <input
         type="datetime-local"
         class="form-control"
@@ -26,7 +34,11 @@
       />
     </div>
     <div class="mb-3">
-      <label for="numberOfPeople" class="form-label">Número de Personas</label>
+      <label
+        for="numberOfPeople"
+        class="form-label"
+        translate="bookingEdit.labels.numberOfPeople"
+      ></label>
       <input
         type="number"
         class="form-control"
@@ -36,7 +48,11 @@
       />
     </div>
     <div class="mb-3">
-      <label for="phoneNumber" class="form-label">Teléfono</label>
+      <label
+        for="phoneNumber"
+        class="form-label"
+        translate="bookingEdit.labels.phoneNumber"
+      ></label>
       <input
         type="tel"
         class="form-control"
@@ -46,7 +62,11 @@
       />
     </div>
     <div class="mb-3">
-      <label for="email" class="form-label">Email</label>
+      <label
+        for="email"
+        class="form-label"
+        translate="bookingEdit.labels.email"
+      ></label>
       <input
         type="email"
         class="form-control"
@@ -56,8 +76,16 @@
       />
     </div>
     <div class="text-center">
-      <button type="submit" class="btn btn-warning btn-sm me-3">Guardar</button>
-      <a [routerLink]="['/']" class="btn btn-danger btn-sm">Regresar</a>
+      <button
+        type="submit"
+        class="btn btn-warning btn-sm me-3"
+        translate="bookingEdit.buttons.save"
+      ></button>
+      <a
+        [routerLink]="['/']"
+        class="btn btn-danger btn-sm"
+        translate="bookingEdit.buttons.back"
+      ></a>
     </div>
   </form>
 </div>

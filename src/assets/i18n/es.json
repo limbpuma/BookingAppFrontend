@@ -1,0 +1,102 @@
+{
+  "nav": {
+    "brand": "App de Reservas",
+    "home": "Inicio",
+    "bookingList": "Lista de Reservas",
+    "bookingAdd": "Agregar Reserva",
+    "language": "Idioma",
+    "english": "Inglés",
+    "spanish": "Español"
+  },
+  "header": {
+    "carousel": {
+      "slide1": {
+        "title": "Pasión por el Desarrollo",
+        "description": "Desde el primer día, me sumergí en el mundo del código con entusiasmo y determinación. Cada línea escrita es un reflejo de mi compromiso con la excelencia."
+      },
+      "slide2": {
+        "title": "Aprendizaje Continuo",
+        "description": "En este viaje de desarrollo, he aprendido que la tecnología evoluciona constantemente. Mi curiosidad insaciable me impulsa a estar siempre al día y a adaptarme a las nuevas tendencias."
+      },
+      "slide3": {
+        "title": "Listo para el Próximo Desafío",
+        "description": "Con este proyecto, no solo demuestro mis habilidades actuales, sino también mi deseo inquebrantable de crecer y enfrentar nuevos retos en el mundo del desarrollo."
+      },
+      "prev": "Anterior",
+      "next": "Siguiente"
+    }
+  },
+  "projectHeader": "Aspectos Técnicos de Mi Proyecto",
+  "dynamicResponsive": {
+    "title": "Interfaz Dinámica y Responsiva",
+    "description": "Utilicé Angular para crear un frontend reactivo, complementado con Bootstrap para garantizar un diseño adaptativo. Esta combinación ofrece una experiencia de usuario suave y estéticamente agradable en todos los dispositivos."
+  },
+  "uniqueBookings": {
+    "title": "Garantizando Reservas Únicas",
+    "description": "El backend, construido con Java Spring Boot, cuenta con validación de números de teléfono para prevenir reservas duplicadas. Esta integración asegura que cada reserva se procese de manera eficiente y sin conflictos."
+  },
+  "dataHandling": {
+    "title": "Manejo Robusto de Datos",
+    "description": "Elegí MySQL para la gestión de bases de datos debido a su fiabilidad y eficiencia. Cada reserva se almacena de forma segura y las consultas se ejecutan rápidamente para una experiencia de usuario óptima."
+  },
+  "secureAccess": {
+    "title": "Acceso Continuo y Seguro",
+    "description": "Mi proyecto está alojado en Heroku, una plataforma en la nube que permite un despliegue fácil y rápido, garantizando un acceso continuo y seguro. La flexibilidad y eficiencia de Heroku facilitan la escalabilidad y el mantenimiento del proyecto."
+  },
+  "footer": {
+    "terms": "Términos y Condiciones",
+    "privacy": "Política de Privacidad"
+  },
+  "addBooking": {
+    "title": "Agregar Nueva Reserva",
+    "info":"        Esta sección utiliza Angular para proporcionar una interfaz interactiva que te permite agregar nuevas reservas. Simplemente completa los campos requeridos y haz clic en 'Guardar Reserva'. Gracias a la integración con Spring Boot en el backend, los datos se almacenan de manera eficiente en nuestra base de datos MySQL.",
+    "labels": {
+      "clientName": "Nombre del Cliente",
+      "dateTime": "Fecha y Hora",
+      "numberOfPeople": "Número de Personas",
+      "phoneNumber": "Teléfono",
+      "email": "Email"
+    },
+    "buttons": {
+      "saveBooking": "Guardar Reserva",
+      "cancel": "Cancelar"
+    }
+  },
+  "bookingList": {
+    "title": "Sistema de Reservas",
+    "info":"Esta página muestra una lista de todas las reservas realizadas. Utilizando Angular en el frontend, se presenta una tabla interactiva que te permite ver, editar o eliminar reservas. Cada acción se comunica con nuestro backend Spring Boot, asegurando que los datos en MySQL estén siempre actualizados. Para editar o borrado lógico, simplemente utiliza los botones correspondientes en cada fila.",
+    "tableHeaders": {
+      "id": "Id Reserva",
+      "clientName": "Nombre del Cliente",
+      "dateTime": "Fecha y Hora",
+      "numberOfPeople": "Número de Personas",
+      "phoneNumber": "Teléfono",
+      "email": "Email",
+      "active": "Activo",
+      "actions": "Acciones"
+    },
+    "buttons": {
+      "edit": "Editar",
+      "delete": "Eliminar"
+    }
+  },
+  "bookingEdit": {
+    "title": "Editar Reserva",
+     "info":"        Aquí puedes editar los detalles de una reserva existente. La página está construida con Angular, lo que facilita la actualización de la información en tiempo real. Una vez que hayas realizado los cambios, haz clic en 'Guardar' y nuestra aplicación, respaldada por Spring Boot, actualizará los detalles en la base de datos MySQL.",
+    "labels": {
+      "clientName": "Nombre del Cliente",
+      "dateTime": "Fecha y Hora",
+      "numberOfPeople": "Número de Personas",
+      "phoneNumber": "Teléfono",
+      "email": "Email"
+    },
+    "buttons": {
+      "save": "Guardar",
+      "back": "Regresar"
+    }
+  },
+  "accordionHeader": "Reflexiones sobre el Desarrollo del Proyecto",
+  "accordionDescription1": "Antes de sumergirme en la codificación, dediqué tiempo a esbozar mapas UML y flujos de trabajo básicos. Esta planificación inicial fue esencial para visualizar la estructura y dirección de mi proyecto, permitiéndome anticipar desafíos y tomar decisiones informadas en cada etapa.",
+  "accordionDescription2": "El desarrollo del backend presentó sus propios retos, en especial al crear la API para conectar con el frontend. Aunque Bootstrap fue una herramienta esencial en el frontend, acelerando el proceso y asegurando una experiencia de usuario fluida, cada obstáculo enfrentado se convirtió en una oportunidad de aprendizaje.",
+  "accordionDescription3": "Después de mucho esfuerzo, logré implementar la funcionalidad multilenguaje. Sin embargo, enfrenté desafíos con el cambio de idioma, como el clic en (a href #) que recargaba la página en lugar de mostrar el idioma seleccionado. Esta experiencia subrayó las sutilezas del desarrollo y la importancia de la persistencia y adaptabilidad en el mundo del software."
+}
