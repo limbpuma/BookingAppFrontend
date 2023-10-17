@@ -41,7 +41,7 @@
   },
   "secureAccess": {
     "title": "Kontinuierlicher und sicherer Zugriff",
-    "description": "Mein Projekt ist auf Heroku gehostet, einer Cloud-Plattform, die einen einfachen und schnellen Einsatz ermöglicht und einen kontinuierlichen und sicheren Zugriff gewährleistet. Die Flexibilität und Effizienz von Heroku erleichtern die Skalierbarkeit und Wartung des Projekts."
+    "description": "Mein Projekt ist auf Railway gehostet, einer Cloud-Plattform, die einen einfachen und schnellen Einsatz ermöglicht und einen kontinuierlichen und sicheren Zugriff gewährleistet. Die Flexibilität und Effizienz von Railway erleichtern die Skalierbarkeit und Wartung des Projekts."
   },
   "footer": {
     "terms": "Allgemeine Geschäftsbedingungen",

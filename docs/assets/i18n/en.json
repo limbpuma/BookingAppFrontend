@@ -41,7 +41,7 @@
   },
   "secureAccess": {
     "title": "Continuous & Secure Access",
-    "description": "My project is hosted on Heroku, a cloud platform that allows for easy and quick deployment, ensuring continuous and secure access. The flexibility and efficiency of Heroku make scaling and maintaining the project straightforward."
+    "description": "My project is hosted on Railway, a cloud platform that allows for easy and quick deployment, ensuring continuous and secure access. The flexibility and efficiency of Railway make scaling and maintaining the project straightforward."
   },
   "footer": {
     "terms": "Terms & Conditions",

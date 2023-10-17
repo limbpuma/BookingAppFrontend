@@ -41,7 +41,7 @@
   },
   "secureAccess": {
     "title": "Acceso Continuo y Seguro",
-    "description": "Mi proyecto está alojado en Heroku, una plataforma en la nube que permite un despliegue fácil y rápido, garantizando un acceso continuo y seguro. La flexibilidad y eficiencia de Heroku facilitan la escalabilidad y el mantenimiento del proyecto."
+    "description": "Mi proyecto está alojado en Railway, una plataforma en la nube que permite un despliegue fácil y rápido, garantizando un acceso continuo y seguro. La flexibilidad y eficiencia de Railway facilitan la escalabilidad y el mantenimiento del proyecto."
   },
   "footer": {
     "terms": "Términos y Condiciones",

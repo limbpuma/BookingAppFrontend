@@ -7,7 +7,7 @@ import { Booking } from './booking';
   providedIn: 'root'
 })
 export class BookingService {
-  private urlBase = 'https://bookingapp-46f62c89759f.herokuapp.com'; 
+  private urlBase = 'https://bookingappbackend-production.up.railway.app/'; 
 
   constructor(private clienteHttp: HttpClient) { }
 
