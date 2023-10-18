@@ -7,7 +7,7 @@ import { Booking } from './booking';
   providedIn: 'root'
 })
 export class BookingService {
-  private urlBase = 'bookingappbackend-production.up.railway.app'; 
+  private urlBase = 'https://bookingappbackend-production.up.railway.app'; 
 
   constructor(private clienteHttp: HttpClient) { }
 
